@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone - My First website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left ">
+            <div class="close">
+                <img class="invert" src="close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img width="50" class="invert" src="logo.svg" alt=""></div>
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="home">Search</li>
+                </ul>
+            </div>
+
+
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="">
+
+                    <h2>
+                        Your library
+                    </h2>
+                </div>
+                <div class="songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right bg-grey rounded ">
+
+            <div class="header">
+
+             <div class="menu">
+                <img class="invert" src="menu.svg" alt="">
+                
+             </div>
+
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylist">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                                fill="none">
+                                <circle cx="12" cy="12" r="10" fill="#800080" />
+                                <path d="M9 6.8 L17 12 L9 17 Z" fill="#000000" />
+                            </svg>
+                        </div>
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Video126/v4/5c/ac/17/5cac1784-5374-f774-04a3-33448e283bdf/Jobbf57ad34-d20a-4712-b955-b880fb765643-154364819-PreviewImage_Preview_Image_Intermediate_nonvideo_sdr_295306859_1532048599-Time1692232116825.png/316x316bb.webp"
+                            alt="">
+                        <h2>Making Memories</h2>
+                        <p>Karan Aujla,Ikky</p>
+                    </div>
+
+                    <div class="card ">
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Video126/v4/5c/ac/17/5cac1784-5374-f774-04a3-33448e283bdf/Jobbf57ad34-d20a-4712-b955-b880fb765643-154364819-PreviewImage_Preview_Image_Intermediate_nonvideo_sdr_295306859_1532048599-Time1692232116825.png/316x316bb.webp"
+                            alt="">
+                        <h2>Making Memories</h2>
+                        <p>Karan Aujla,Ikky</p>
+                    </div>
+
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="abovebar">
+
+
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="songbuttons">
+                            <img id="previous" src="prev.svg" alt="">
+                            <img id="play" src="play.svg" alt="">
+                            <img id="next" src="next.svg" alt="">
+                        </div>
+                        <div class="songtime">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
